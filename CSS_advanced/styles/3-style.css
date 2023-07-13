@@ -11,10 +11,18 @@ html {
     --text-color: var(--color-black);
 }
 
-body, a {
+body {
     color: var(--text-color);
 }
 
-.card-category, .section-tagline {
+a {
+    color: var(--text-color);
+}
+
+.card-category {
+    color: var(--color-primary);
+}
+
+.section-tagline {
     color: var(--color-primary);
 }
