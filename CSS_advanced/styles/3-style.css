@@ -1,23 +1,31 @@
-/* Making custom properties in root element
-    Resetting colors with created properties */
-    
-html {
-    scroll-behavior: smooth;
-}
-
-:root {
+:root{
     --color-primary: #d73953;
-    --color-black: #090909;
+    --color-black:#090909;
     --color-white: #ffffff;
-    --color-light-gray: #f3f3f3;
+    --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
 }
-
-body, a {
+html{
+    scroll-behavior: smooth;
+}
+body
+{
     color: var(--text-color);
 }
-
-.card-category, .section-tagline {
-    color: var(--color-primary);
+a
+{
+    color: var(--text-color);
+}
+.visually-hidden
+{
+    display: none;
+}
+.card-category
+{
+    color:var(--color-primary);
+}
+.section-tagline
+{
+    color:var(--color-primary);
 }
