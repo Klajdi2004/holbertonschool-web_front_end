@@ -1,11 +1,11 @@
-html {
+html{
     scroll-behavior: smooth;
 }
 
-body, a {
+body, a{
     color: #161616;
 }
 
-.card-category, .section-tagline {
+.card-category, .section-tagline{
     color: #d73953;
 }
